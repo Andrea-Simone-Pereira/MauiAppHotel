@@ -8,10 +8,23 @@
     
     <VerticalStackLayout VerticalOptions="CenterAndExpand"
                          Padding="10">
-        
+
+        <Frame CornerRadius="4"
+       Padding="0"
+       HeightRequest="120"
+       WidthRequest="148"
+       IsClippedToBounds="True"
+       HorizontalOptions="Center">
+
+            <Image Source="hotel.png"
+           Aspect="AspectFill"/>
+
+        </Frame>
+
         <Label Text="Cálculo da Diária"
                FontFamily="Kalam"
-               FontSize="50"
+               FontSize="40"
+               HorizontalOptions="Center"
                TextColor="{StaticResource Primary}"/>
 
         <Frame Padding="10">
